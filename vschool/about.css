@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://data.whicdn.com/images/295132048/original.gif);
+  background-size: 36%;
+  font-family: 'Pacifico', cursive;
+}
+
+ul {
+  border: solid black 10px;
+  background-color: black;
+}
+
+li {
+  display: inline;
+  padding: 285px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color: red;
+}
+
+.box {
+  border: white solid 10px;
+  font-size: 32px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+  width: 70%;
+  opacity: 70%;
+}
+
+.box:hover {
+  padding: 65px;
+  width: 75%;
+  cursor: pointer;
+  font-size: 35px;
+  border: red solid 5px;
+}
