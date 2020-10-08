@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://data.whicdn.com/images/303321302/original.gif);
+  font-family: 'Pacifico', cursive;
+}
+
+ul {
+  border: solid black 10px;
+  background-color: black;
+}
+
+li {
+  display: inline;
+  padding: 285px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color: red;
+}
+
+.gallery {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  grid-gap: 2%;
+}
+
+.img {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://instagram.flas1-2.fna.fbcdn.net/v/t51.2885-15/e35/43568473_427587824442895_7604320251236156661_n.jpg?_nc_ht=instagram.flas1-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=LrLMPHOOX58AX8ZBqDA&_nc_tp=18&oh=cc0c8ba16d6e84ddd3b5cd4cbd321ce6&oe=5FA8B579);
+  background-position: center;
+  border: white solid 5px;
+}
+
+.img:hover {
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+  border: red solid 5px;
+  cursor: pointer;
+}
+
+.img2 {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://instagram.flas1-2.fna.fbcdn.net/v/t51.2885-15/e15/23596539_1810948272537939_6888225101435633664_n.jpg?_nc_ht=instagram.flas1-2.fna.fbcdn.net&_nc_cat=103&_nc_ohc=2KtUf3v_62QAX9Ft5Zo&_nc_tp=18&oh=a2faed931de8ee98d9512c3555647adc&oe=5F817616);
+  background-position: center;
+  border: white solid 5px;
+}
+
+.img2:hover {
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+  border: red solid 5px;
+  cursor: pointer;
+}
+
+.img3 {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://instagram.flas1-2.fna.fbcdn.net/v/t51.2885-15/e35/30590470_1626611610767833_4054407083989139456_n.jpg?_nc_ht=instagram.flas1-2.fna.fbcdn.net&_nc_cat=101&_nc_ohc=425Zuj4IB7oAX9VTZcs&_nc_tp=18&oh=3dff024688ff46b5e7f50b90575f7916&oe=5FA7F6CB);
+  background-position: center;
+  border: white solid 5px;
+}
+
+.img3:hover {
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+  border: red solid 5px;
+  cursor: pointer;
+}
+
+.img4 {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://instagram.flas1-2.fna.fbcdn.net/v/t51.2885-15/e35/24254589_1922119868039586_211190293632909312_n.jpg?_nc_ht=instagram.flas1-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=0P_mqyfpCdwAX-MXNZJ&_nc_tp=18&oh=06884ca0d103e9a626d7b936ea2c1a6c&oe=5FA78A98);
+  background-position: center;
+  border: white solid 5px;
+}
+
+.img4:hover {
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+  border: red solid 5px;
+  cursor: pointer;
+}
+
+.img5 {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://instagram.flas1-1.fna.fbcdn.net/v/t51.2885-15/e35/25035852_2038149543130568_8293770560849051648_n.jpg?_nc_ht=instagram.flas1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=TFO3Ohqr5JUAX8CyOoZ&_nc_tp=18&oh=105663c429e8644cd50c7b3fb62709ba&oe=5FA9BFEF);
+  background-position: center;
+  border: white solid 5px;
+}
+
+.img5:hover {
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+  border: red solid 5px;
+  cursor: pointer;
+}
