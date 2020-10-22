@@ -1,0 +1,80 @@
+.title {
+  text-align: center;
+}
+
+.main {
+  border: thick solid #f9186f;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+#add-Item {
+  border: 3px solid #f9186f;
+}
+
+.input {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f9186f;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #f9186f;
+}
+
+.label {
+  margin: 10px;
+}
+
+#list {
+  flex-direction: column;
+  display: flex;
+}
+
+#list > li {
+  list-style-type: none;
+  margin: 10px auto;
+  color: #f9186f;
+}
+
+#list div {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://data.whicdn.com/images/304068862/original.gif);
+  background-size: auto;
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  color: #f9186f;
+}
+
+h2 {
+  color: #f9186f;
+}
+
+label {
+  color: #f9186f;
+  font-size: 20px;
+}
+
+button {
+  color: #f9186f;
+  font-size: medium;
+  font-family: 'Lobster', cursive;
+}
+
+button:hover {
+  background-color: #f9186f;
+  color: white;
+}
+
+hr.style {
+  border: #f9186f 3px solid;
+  border-radius: 50px;
+}
